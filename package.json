@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-pico",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Extends unocss theme with Pico css color variables",
   "type": "module",
   "main": "index.js",
