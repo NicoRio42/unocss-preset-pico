@@ -131,9 +131,9 @@ function presetPico() {
     extendTheme: (theme) => {
       /** @type { any} */ const newTheme = theme;
       if (newTheme.colors !== undefined) {
-        newTheme.colors = { ...newTheme.colors, picoCssColors };
+        newTheme.colors = { ...newTheme.colors, ...picoCssColors };
       } else {
-        newTheme.colors = picoCssColors;
+        newTheme.colors = { ...picoCssColors };
       }
 
       return newTheme;
