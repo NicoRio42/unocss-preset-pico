@@ -1,6 +1,6 @@
 # Unocss preset pico
 
-An preset to ease the usage of [Pico css](https://picocss.com/) with [Unocss](https://unocss.dev/).
+A preset to ease the usage of [Pico css](https://picocss.com/) with [Unocss](https://unocss.dev/).
 
 It adds all Pico css colors the theme, so you can use it in classes:
 
